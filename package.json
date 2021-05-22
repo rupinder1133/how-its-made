@@ -1,0 +1,19 @@
+{
+  "name": "how-its-made",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupinder1133/how-its-made.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupinder1133/how-its-made/issues"
+  },
+  "homepage": "https://github.com/rupinder1133/how-its-made#readme"
+}
