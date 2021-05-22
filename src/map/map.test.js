@@ -24,3 +24,8 @@ it('should add array mirror elements', () => {
   let iteratorFn = (element, index, array) => element + array[array.length - 1 - index];
   expect(map([1, 1, 3, 4], iteratorFn)).toStrictEqual([5, 4, 4, 5]);
 })
+
+it('should iterate on string', () => {
+  let iteratorFn = (element) => element;
+  expect(map('hello', iteratorFn)).toStrictEqual(['h', 'e', 'l', 'l', 'o']);
+})
