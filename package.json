@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rupinder1133/how-its-made/issues"
   },
-  "homepage": "https://github.com/rupinder1133/how-its-made#readme"
+  "homepage": "https://github.com/rupinder1133/how-its-made#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }
